@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <h1 align = "center">Registration Forms</h1> <br><br>
+     <table width = "75%" align = "center" border = 0>
+        <tr>
+          <td><label>Name</label></td>
+          <td colspan="2"><input type = "text" size = 60px id = "name" ></td>
+         <td> <label style = 'visibility: hidden;'id = "validname">Please fill this tab</label></td>
+        </tr>
+        <tr>
+            <td><label>Password</label></td>
+            <td colspan="2"><input  type = "password" id = "ps" size = 60px ></td>
+            <td><label style = 'visibility: hidden;'id = "pass">Please enter your password</label></td>
+        </tr>
+        <tr>
+            <td><label>E-Mail</label></td>
+            <td colspan="2"><input type = "text" id = "email" size = 60px ></td>
+            <td><label style = 'visibility: hidden;'id = "em">Please enter email id</label></td>
+        </tr>
+        <tr>
+            <td><label>Phone Number</label></td>
+            <td colspan="2"><input type = "text" size = 60px id = "phone" ></td>
+            <td><label style = 'visibility: hidden;'id = "ph">Enter your phone number</label></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+            <td><input type = "radio" id ="r1" name = "gender">Male</td>
+            <td><input type = "radio" id = "r2" name = "gender">Female</td>
+            <td><label style = 'visibility: hidden;'id = "g">Enter your Gender</label></td>
+        </tr>
+        <tr>
+            <td>
+                <label >Languages Known</label>
+            </td>
+            <td><input type = "checkbox" id = "cb1">English</td><td><input type = "checkbox" id= "cb2">Telugu</td></td>
+            <td><label style = 'visibility: hidden;'id = "cbx">Check the check box</label></td>
+        </tr>
+        <tr>
+            <td></td>
+        <td><input type = "checkbox" id = "cb3">Tamil</td>
+        <td><input type = "checkbox" id = "cb4">Hindi</td>
+        </tr>
+        <tr>
+            <td><label>Address </label></td>
+            <td colspan="2"><textarea id = "ad"></textarea></td>
+            <td><label style = 'visibility: hidden;' id = "ua"> Please Enter Address</label></td>
+        </tr>
+        <tr><td colspan="3" align = "center"><button id = "btn"> Register</button></td></tr>
+
+    </table> 
+    
+</body>
+</html>
