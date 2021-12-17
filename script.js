@@ -1,34 +1,3 @@
-// let select = document.getElementById('r');
-// select.addEventListener("click",fuction(e)
-// {
-//     valid();
-// })
-
-// function valid()
-// {
-//     if (select.checked)
-//     {
-//         alert("success");
-//     }
-//     else 
-//     {
-//         alert("please select any options");
-//     }
-// }
-
-// function callfun()
-// {
-//     check = document.getElementById('r');
-//     if(check.checked)
-//     {
-//         alert("thank you");
-//     }
-//     else 
-//     {
-
-//         alert("please check the checkbox");
-//     }
-// }
 let b = document.getElementById('btn')
 b.addEventListener("click", function (e) {
    
